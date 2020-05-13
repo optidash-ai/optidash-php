@@ -1,0 +1,68 @@
+{
+    "name": "optidash-ai/optidash-php",
+    "description": "Official PHP integration for Optidash - AI-powered image optimization and processing API. We will drastically speed-up your websites and save you money on bandwidth and storage.",
+    "license": "MIT",
+    "keywords": [
+        "optidash",
+        "image",
+        "image optimization",
+        "image processing",
+        "image resizing",
+        "image resizer",
+        "image cropping",
+        "image scaling",
+        "image masking",
+        "image watermarking",
+        "image filtering",
+        "image thumbnails",
+        "pic",
+        "picture",
+        "photo",
+        "face",
+        "face detection",
+        "visual",
+        "watermark",
+        "filter",
+        "crop",
+        "mask",
+        "resize",
+        "resizer",
+        "thumbs",
+        "thumbnail",
+        "thumbnails",
+        "jpg",
+        "jpeg",
+        "png",
+        "gif",
+        "svg",
+        "bmp",
+        "psd",
+        "tiff",
+        "webp",
+        "heic"
+    ],
+    "homepage": "https://optidash.ai",
+    "authors": [
+        {
+            "name": "Optidash UG",
+            "email": "support@optidash.ai"
+        }
+    ],
+    "support": {
+        "email": "support@optidash.ai"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "lib-curl": ">=7.20.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+     "autoload": {
+        "files": [
+            "lib/Optidash.php"
+        ],
+        "psr-4": {
+            "Optidash\\": "lib/Optidash/"
+        }
+    }
+}
