@@ -87,7 +87,7 @@ $opti
         )
     ))
     ->output(array(
-        'format' => 10
+        'format' => 'png'
     ))
     ->toFile('path/to/output.png', function ($error, $meta) {
         if (!empty($error)) {
