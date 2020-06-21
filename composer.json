@@ -1,5 +1,5 @@
 {
-    "name": "optidash-ai/optidash-php",
+    "name": "optidash/optidash",
     "description": "Official PHP integration for Optidash - AI-powered image optimization and processing API. We will drastically speed-up your websites and save you money on bandwidth and storage.",
     "license": "MIT",
     "keywords": [
