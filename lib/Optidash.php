@@ -64,7 +64,7 @@ class Optidash {
         }
 
         $this->options['withFetch'] = true;
-        $this->options['url'] = $url;
+        $this->options['request']['url'] = $url;
 
         return $this;
     }

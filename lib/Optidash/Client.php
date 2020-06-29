@@ -21,7 +21,7 @@ class Client {
             CURLOPT_USERAGENT => $this->getUserAgent(),
             CURLOPT_POST => true,
             CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_FAILONERROR => true,
+            CURLOPT_FAILONERROR => false,
             CURLOPT_CAINFO => __DIR__ . '/../data/cacert.pem',
             CURLOPT_SSL_VERIFYPEER => false,
             CURLOPT_IPRESOLVE => CURL_IPRESOLVE_V4,
