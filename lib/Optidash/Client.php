@@ -176,7 +176,7 @@ class Client {
         */
 
         if (isset($this->options['withFetch'])) {
-            $data = json_encode($options['request']);
+            $data = json_encode($this->options['request']);
 
             array_push($curlHeaders, 'Content-Type: application/json');
 
