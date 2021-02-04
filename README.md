@@ -20,7 +20,7 @@ See the [Optidash API docs](https://docs.optidash.ai).
 
 ### Installation
 ```bash
-$ composer require optidash-ai/optidash-php
+$ composer require optidash/optidash
 ```
 
 ### Quick examples
